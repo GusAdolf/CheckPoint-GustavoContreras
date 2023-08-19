@@ -1,0 +1,54 @@
+  503  
+  504  git remote add origin https://github.com/GusAdolf/CheckPoint-GustavoContreras.git
+  505  git config --global init.defaultBranch main
+  506  git branch -M main
+  507  git push -u origin main
+  508  git pull --rebase origin mai
+  509  git push -u origin main
+  510  git fetch
+  511  clear
+  512  git pull
+  513  touch main.js
+  514  touch index.html
+  515  git add .
+  516  git commit -m "primer commit Gustavo Contreras"
+  517  git push origin main
+  518  git branch feature 
+  519  git checkout feature 
+  520  mkdir hardware
+  521  mkdir software
+  522  mkdir SeguridadInformatica
+  523  ls
+  524  cd SeguridadInformatica/
+  525  touch resumen.txt
+  526  cd ..
+  527  ls
+  528  cd hardware/
+  529  touch resumen.txt
+  530  ls
+  531  cd ..
+  532  ls
+  533  cd software/
+  534  touch resumen.txt
+  535  ls
+  536  cd..
+  537  ls
+  538  cd ..
+  539  ls
+  540  git add.
+  541  git add .
+  542  git commit -m "Segundo commit Gustavo Contreras rama Feature"
+  543  git push origin feature 
+  544  git checkout main 
+  545  ls
+  546  mv main.js resumenHadware.txt
+  547  ls
+  548  mv index.html resumenSoftware.txt
+  549  ls
+  550  nano resumenSoftware.txt 
+  551  nano resumenHadware.txt 
+  552  git add .
+  553  git commit -m "cambiando nomnbre archivos Gustavo Contreras"
+  554  git push origin main
+  555  history
+  556  history 54 > comandos.txt
